@@ -21,7 +21,7 @@ Kalian bisa langsung saja membuat database pada PHPMyAdmin dengan mengklik tombo
 CREATE DATABASE Latihan1;
 ```
 
-![menambahkan_gambar](img/2.png.png)
+![menambahkan_gambar](img/2.png)
 
 
 ## PEMBUATAN TABEL 
