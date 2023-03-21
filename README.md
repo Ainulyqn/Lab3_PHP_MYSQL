@@ -84,7 +84,7 @@ if ($conn == false)
 ?>
 ```
 
- dan untuk mengaksesnya dapat menggunakan URL : http://localhost:8080/Lab8Web/Lab8_php_database/koneksi.php jika koneksi berhasil maka anda akan mendapatkan hasil seperti gambar dibawah ini.
+ dan untuk mengaksesnya dapat menggunakan URL : http://localhost:8080/Lab3_PHP_MYSQL/Lab8_php_database/koneksi.php jika koneksi berhasil maka anda akan mendapatkan hasil seperti gambar dibawah ini.
 
 ![menambahkan_gambar](img/6.png)
 
