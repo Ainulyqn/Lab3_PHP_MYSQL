@@ -9,7 +9,7 @@ ______________________________________________
 
 Untuk dapat membuat aplikasi CRUD ini, ada beberapa hal yang harus disiapkan. Pertama, karena disini menggunaka MySQL sebagai database servernya pastikanlah MySQL kalian sudah dapat dijalankan melalui Xampp seperti gambar dibawah.
 
-![menambahkan_gambar](img/XAMPP.png)
+![menambahkan_gambar](img/1.png)
 
 Jika MySQL dan Webserver Apachenya sudah running, selanjutnya bukalah web browser PHPMyAdmin dengan URL: http://localhost:8080/phpmyadmin/
 
@@ -21,12 +21,12 @@ Kalian bisa langsung saja membuat database pada PHPMyAdmin dengan mengklik tombo
 CREATE DATABASE Latihan1;
 ```
 
-![menambahkan_gambar](img/MEMBUAT%20DATABASE.png)
+![menambahkan_gambar](img/2.png.png)
 
 
 ## PEMBUATAN TABEL 
 
-![menambahkan_gambar](img/MEMBUAT%20TABEL.png)
+![menambahkan_gambar](img/3.png)
 
 Setelah database berhasil dibuat. Selanjutnya proses pembuatan tabel pada database tersebut. Pembuatannya sama dengan sebelumnya, kalian hanya perlu menekan tombol MySQL pada Database sebelumnya kemudian masukan kode berikut:
 
@@ -44,7 +44,7 @@ CREATE TABLE data_barang (
 
 ## PENAMBAHAN DATA
 
-![menambahkan_gambar](img/NAMBAH%20DATA%20TABEL.png)
+![menambahkan_gambar](img/4.png)
 
 Untuk dapat menambahkan data pada tabel yang sudah dibuat sebelumnya, kalian hanya perlu memasukan kode berikut pada bagian MySQLnya:
 
@@ -59,9 +59,9 @@ VALUES ('Elektronik', 'HP Samsung Android', 'hp_samsung.jpg', 2000000, 2400000, 
 
 Pertama, buatlah sebuah folder baru dengan nama Lab8_php_database pada root directory web server (C:\xampp\htdocs\Lab8Web)
 
-![menambahkan_gambar](img/CEK%20WEB.png)
+![menambahkan_gambar](img/5.png)
 
-Kemudian untuk dapat mengaksesnya pada web server, gunakanlah URL : http://localhost:8080/Lab8Web/Lab8_php_database/
+Kemudian untuk dapat mengaksesnya pada web server, gunakanlah URL : http://localhost:8080/Lab3_PHP_MYSQL/Lab8_php_database/
 
 
 ## MEMBUAT FILE KONEKSI DATABASE
@@ -70,7 +70,7 @@ Buatlah file baru dalam Directory Lab_php_dasar dengan nama file koneksi.php kem
 
 ```php
 <?php
-$host = "localhost:3307";
+$host = "localhost";
 $user = "root";
 $pass = "";
 $db = "latihan1";
@@ -86,12 +86,12 @@ if ($conn == false)
 
  dan untuk mengaksesnya dapat menggunakan URL : http://localhost:8080/Lab8Web/Lab8_php_database/koneksi.php jika koneksi berhasil maka anda akan mendapatkan hasil seperti gambar dibawah ini.
 
-![menambahkan_gambar](img/CEK%20KONEKSI%20.png)
+![menambahkan_gambar](img/6.png)
 
 
 ## MENAMPILKAN DATA DENGAN FILE INDEX (READ)
 
-![menambahkan_gambar](img/INDEX.png)
+![menambahkan_gambar](img/7.png)
 
 Untuk menampilkan data seperti gambar diatas kalian perlu menggunakan kode dibawah ini:
 
@@ -175,7 +175,7 @@ th,td{
 
 ## MENAMBAHKAN DATA (CREATE)
 
-![menambahkan_gambar](img/TAMBAH%20BARANG.png)
+![menambahkan_gambar](img/8.png)
 
 Untuk menambahkan data seperti gambar diatas kalian perlu menggunakan kode dibawah ini:
 
@@ -278,7 +278,7 @@ Dengan menambahkan css berikut:
 
 ## MENGUBAH DATA (UPDATE)
 
-![menambahkan_gambar](img/UBAH%20BARANG.png)
+![menambahkan_gambar](img/9.png)
 
 Untuk mengubah suatu data barang yang telah dicantumkan pada localhost sebelumnya, kalian bisa menggunakan kode dibawah ini dan dengan menggantikan angka dipaling akhir pada URL sesuai dengan data id_barang yang dicantumkan pada phpmyadmin sebelumnya.
 
